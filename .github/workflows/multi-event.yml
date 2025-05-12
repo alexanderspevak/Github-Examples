@@ -9,7 +9,7 @@ on:
 
 jobs:
   hello_world:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: "Echo basic info"
       run: |
